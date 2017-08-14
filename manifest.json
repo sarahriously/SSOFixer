@@ -1,0 +1,18 @@
+{ 
+	"manifest_version": 2,
+	
+	"name": "SSO Fixer",
+	"description": "This extension makes the new SSO tolerable to look at",
+	"version": "1.0",
+	"content_scripts": [
+	{
+		"run_at": "document_end",
+		"matches": ["https://www.student.auckland.ac.nz/*"],
+		"js" : ["script.js"],
+		"css" : ["newstyles.css"]
+	}
+	],
+	"permissions": [
+		"tabs", "https://www.student.auckland.ac.nz/*"
+	]
+}

@@ -1,0 +1,23 @@
+.ps_wrapper {
+	background: #ededed !important;
+}
+
+.ps_header_bar {
+	background-color: #00467f !important;
+	background-image: none !important;
+}
+
+.nuitile .ps_groupleth {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 20px !important;
+	text-align: center !important;
+	line-height: 40px !important;
+}
+
+.ps_header_bar {
+	border-bottom-color: #ededed !important;
+}
+
+#processing, .psc_processing > .ps_img {
+	width: 105px !important;
+}
